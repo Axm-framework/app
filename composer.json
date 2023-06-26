@@ -36,11 +36,10 @@
             "App\\Models\\": "App/Models/",
             "App\\Controllers\\": "App/Controllers/",
             "App\\LiveAxm\\": "App/LiveAxm/"
-        },
-
-        "exclude-from-classmap": [
-            "**/Database/Migrations/**"
-        ]
+		},
+		"files": [
+			"src/Axm.php"
+		]
     },
     
     "config": {
