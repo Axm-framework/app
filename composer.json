@@ -36,10 +36,7 @@
             "App\\Models\\": "App/Models/",
             "App\\Controllers\\": "App/Controllers/",
             "App\\LiveAxm\\": "App/LiveAxm/"
-		},
-		"files": [
-			"src/Axm.php"
-		]
+	}
     },
     
     "config": {
