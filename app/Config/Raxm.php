@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' =>  ROOT_PATH . '/vendor/axm/raxm/dist',
+    'asset_url' =>  $_SERVER['host'] . '/vendor/axm/raxm/dist',
 
     /*
     |--------------------------------------------------------------------------
