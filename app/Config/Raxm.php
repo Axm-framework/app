@@ -54,7 +54,7 @@ return [
     |
     */
 
-    'asset_url' =>  $_SERVER['HTTP_HOST'] . '/vendor/axm/raxm/dist/',
+    'asset_url' =>  generateUrl(PATH_CLEAR_URI . 'vendor/axm/raxm/dist') . '/',
 
     /*
     |--------------------------------------------------------------------------
@@ -177,4 +177,3 @@ return [
     'render_on_redirect' => false,
 
 ];
-
